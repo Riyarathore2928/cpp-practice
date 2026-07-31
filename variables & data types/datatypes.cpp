@@ -1,48 +1,41 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 int main() {
-
     //variable define
-    //int age = 25;
-    // cout << Riya's Age is: " << age << endl;
-    
-    //decalartion
-    // int age;
-    // cout << age;
-    
+    //int rollNumber = 101;
+    //cout << "roll number is" << RollNumber  << endl;
+
+    //decalaration
+    //int rollNumber;
+    //cout << rollNumber;
+
     //definition
-    int age = 25;
-    cout << age << endl;
+    //int rollNumber;
+    //cout << rollnumber << endl;
 
     //manipulation or updation
-    age = 101;
-    cout << age << endl;
+    int rollNumber = 101;
+    cout << rollNumber << endl;
 
-
-    //int
-    int count = 6;
+    //int 
+    int count = 101;
     //float
-    float share = 3.14;
+    float percentage = 85.5;
     //char
-    char alphabet = 'z';
-    //double
-    double weight = 55.6987;
-    //boolean;
+    char grade = 'A';
+    //boolean
+    bool isPassed = 1;
     bool isStudent = true;
-    bool isChild = 1;
-    bool isFemale = false;
-    bool isGirl = 0;
+    //string
+    string studentName = "Riya";
 
-    cout << count << endl;
-    cout << share << endl;
-    cout << alphabet << endl;
-    cout << weight << endl;
-    cout << isStudent << endl;
-    cout << isChild << endl;
-    cout << isFemale << endl;
-    cout << isGirl << endl;
+    cout << "Roll Number" << rollNumber << endl;
+    cout << "Percentage" << percentage << endl;
+    cout << "Grade" << grade << endl;
+    cout << "Passed" << isPassed << endl;
+    cout << "Name" << studentName << endl;
 
     return 0;
-
 }
